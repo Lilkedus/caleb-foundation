@@ -41,7 +41,7 @@ export default function Home() {
         <meta property="twitter:image" content="https://teamhnm.org/og.png" />
       </Head>
 
-      <main className="">
+      <main>
         <Navbar />
         <Hero />
         <Carousal />

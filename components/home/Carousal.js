@@ -15,7 +15,7 @@ export default function Carousal() {
       }}
       pagination={{
         dynamicBullets: true,
-      }}
+      }} sr
       navigation={true}
       autoplay={{
         delay: 5000,
@@ -23,82 +23,115 @@ export default function Carousal() {
       }}
       modules={[Autoplay, Pagination, Navigation, Keyboard]}
       className="w-full mb-10 sm:mb-20 p-2"
+      style={{
+        width: "100%",
+        height: "90vh", /* Set the initial height of the carousel; adjust as needed */
+      }}
+      breakpoints={{
+        // Adjust the image size on larger screens (min-width: 768px) to show faces properly
+        768: {
+          height: "5vh",
+        },
+      }}
     >
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
           src="/carousal/01.png"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/02.png"
+          src="/carousal/02.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/03.png"
+          src="/carousal/03.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/04.png"
+          src="/carousal/04.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/05.png"
+          src="/carousal/05.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/06.png"
+          src="/carousal/06.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/07.png"
+          src="/carousal/07.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/08.png"
+          src="/carousal/08.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/09.png"
+          src="/carousal/09.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center overflow-visible">
         <img
-          src="/carousal/10.png"
+          src="/carousal/10.jpg"
           alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
-        />
-      </SwiperSlide>
-      <SwiperSlide className="flex justify-center items-center overflow-visible">
-        <img
-          src="/carousal/11.png"
-          alt=""
-          className="sm:w-10/12 rounded-lg shadow-md ring ring-zinc-200"
+          className="w-full object-cover"
+          style={{
+            maxHeight: "100%", /* To prevent the image from stretching beyond its original size */
+          }}
         />
       </SwiperSlide>
     </Swiper>

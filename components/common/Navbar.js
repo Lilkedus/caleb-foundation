@@ -34,7 +34,7 @@ export default function Navbar() {
           title="Company"
           class="inline-flex items-center"
         >
-          <img src="/header_logo.png" alt="" className="h-12 lg:h-14" />
+          <img src="/header_logo.png" alt="" className="h-12 scale scale-[1.5] lg:h-14" />
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>

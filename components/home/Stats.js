@@ -32,34 +32,34 @@ export default function Stats() {
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-x-2 gap-y-2 lg:gap-x-6 md:gap-x-6 md:gap-y-6 md:gap-y-6">
             <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
               <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">
-                {statistics !== null && statistics[0][0]}+
+                $ 62,524
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
-                Hungry Souls Feeded
+                Donations collected
               </p>
             </div>
             <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
               <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">
-                {statistics !== null && statistics[1][0]}+
+                13
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
-                Members
+                Board Members
               </p>
             </div>
             <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
               <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">
-                ₹{statistics !== null && statistics[2][0]}+
+                42
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
-                Donation collected
+                Training services provided
               </p>
             </div>
             <div className="flex justify-center flex-col items-center w-36 h-36 md:w-44 md:h-48 lg:w-56 lg:h-56 bg-white shadow rounded-2xl">
               <h2 className="lg:text-5xl md:text-4xl text-2xl font-extrabold leading-10 text-center text-gray-800">
-                {statistics !== null && statistics[3][0]}+
+                76
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
-                Awards Won
+                Number of medical coverages provided
               </p>
             </div>
           </div>
