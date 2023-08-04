@@ -59,7 +59,7 @@ export default function Stats() {
                 76
               </h2>
               <p className="mt-4 text-sm md:text-base lg:text-lg leading-none text-center text-gray-600">
-                Number of medical coverages provided
+                Medical coverages provided
               </p>
             </div>
           </div>
